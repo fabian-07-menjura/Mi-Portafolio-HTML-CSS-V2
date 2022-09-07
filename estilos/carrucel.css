@@ -1,0 +1,26 @@
+.carousel-inner {
+  height: 250px;
+}
+.carousel-item {
+  height: 100%;
+}
+
+.c-item1 {
+  padding: 1px;
+  background-color: black;
+  height: 100%;
+}
+.c-item2 {
+  padding: 1px;
+  background-color: black;
+  height: 100%;
+}
+.c-item3 {
+  padding: 1px;
+  background-color: black;
+  height: 100%;
+}
+
+.c-item-row {
+  padding: 20px;
+}

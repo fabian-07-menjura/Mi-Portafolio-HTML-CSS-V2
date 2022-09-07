@@ -1,0 +1,26 @@
+.proyectos {
+  background: url("/imagenes/proyectos.jpg") no-repeat center / cover;
+}
+.sectionExperiencia {
+  padding: 5rem 3rem 10rem;
+  background: rgba(11, 11, 11, 0.75);
+  /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+  backdrop-filter: blur(0px);
+}
+.listaExperiencia {
+  display: flex;
+  flex-wrap: wrap;
+}
+.listaExperiencia li {
+  margin: 3rem 4rem 3rem 4rem;
+}
+
+.listaExperiencia li img {
+  width: 20vw;
+  height: 11vw;
+}
+.listaExperiencia li p {
+  font-family: "Inconsolata", monospace;
+  color: white;
+  font-size: 1.5vw;
+}

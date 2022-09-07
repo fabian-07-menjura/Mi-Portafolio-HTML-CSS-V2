@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/estilos/sobreMi.css" />
+    <link rel="stylesheet" href="/estilos/reset.css" />
+    <link rel="stylesheet" href="/estilos/contacto.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navegacion">
+     
+        <h3 class="tituloNav">Estudiante Full Stack</h3>
+
+        <a href="/index.html"><img src="/imagenes/inicio.png" alt="imagen inicio" class="imgInicio"/></a>
+
+        <ul class="listaNav">          
+          <li><a href="/habilidades.html">Habiliades</a></li>
+          <li><a href="/hobbies.html">Hobbies</a></li>
+          <li><a href="/formacion.html">Formación</a></li>
+          <li><a href="/proyectos.html">Proyectos</a></li>
+          <li><a href="/contacto.html">Contacto</a></li>
+      </div>
+    </nav>
+    <main>
+        <section class="sectionContacto">
+          <div class="containerContactame">
+
+          
+            <img
+              class="imagenContactame"
+              src="imagenes/correo.png"
+              alt="imagen correo"
+            />
+            <div class="divContacto">
+              <h2 class="tituloContactame">Contacto</h2>
+              <p class="parrafoContactame">¿Quieres contactarme?</p>
+              <p class="parrafoContactame">
+                Complete el siguiente formulario y me contactare lo antes posible.
+              </p>
+              <form class="formularioContacto" action="">
+                <div>
+    
+                  <input class="inputContactame" id="nombreImput" placeholder="Nombre" type="text" name="nombre" required/>
+                  <p id="nombre" ></p>
+                </div>
+                <br />
+                <input class="inputContactame" id="nombreEmail" placeholder="E-mail" type="email" name="email" required/>
+                <br />
+                <div >              
+                  <input class="inputContactame" id="nombreAsunto" placeholder="Asunto" type="text" onchange="" name="asunto" required />
+                  <p id="asunto"></p>
+                </div>
+                  <br />
+                  <div>
+                    <textarea  id="nombreTarea" placeholder="Mensaje" name="mensaje" class="inputMensaje" cols="30" rows="10" required ></textarea>
+                    <p id="mensaje" ></p>
+                  </div>
+                    <br />
+                <button href="/registroCocluido.html"  id="enviar" class="enviarFormulario" type="submit"   > Enviar mensaje</button>
+              </form>
+            </div>
+          </div>
+          </section>
+    </main>
+    <footer class="contactos">
+        <div class="contenedorHeader">
+
+            <h4 class="tituloFooter">Contactame</h4>
+            <ul class="listaContactos">
+                <li>
+                    <img src="/imagenes/email.png" alt="imagen correo" class="imagenContacto">
+                    <p class="parrafoContacto">fabian.menjura.22@gmail.com</p>
+
+                </li>
+                <li>
+                    <img src="/imagenes/whatsapp (1).png" alt="imagen wtsp" class="imagenContacto">
+                    <p class="parrafoContacto">3146364068</p>
+
+                </li>
+            </ul>
+        </div>
+        <div>
+          <ul class="listaRedes">
+            <li><a href="https://github.com/fabian-07-menjura"><img src="/imagenes/gitHub.png" alt="imagen de gitHub" class="imgGithub"></a></li>
+            <li><a href="https://www.linkedin.com/in/fabian-menjura-1409ba216/"><img src="/imagenes/linkedin.png" alt="imagen de linkedin" class="imgLinkedin"></a></li>
+          </ul>
+        </div>
+    </footer>
+  </body>
+</html>

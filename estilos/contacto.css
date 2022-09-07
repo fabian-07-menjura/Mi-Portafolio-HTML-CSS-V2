@@ -1,0 +1,88 @@
+.sectionContacto {
+  background: url("/imagenes/contactame.jpg") no-repeat center / cover;
+
+  /* padding: 5rem 0 5rem 10rem; */
+  /* display: flex; */
+}
+.containerContactame {
+  display: flex;
+  padding: 5rem 3rem 10rem 8rem;
+  background: rgba(11, 11, 11, 0.75);
+  /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+  backdrop-filter: blur(0px);
+}
+.tituloContactame {
+  font-family: "Inconsolata", monospace;
+  font-size: 2vw;
+  margin-bottom: 8px;
+  color: white;
+  font-weight: bold;
+}
+.parrafoContactame {
+  font-family: "Inconsolata", monospace;
+  /* font-size: 7rem; */
+  font-size: 1.5vw;
+  margin-bottom: 1vw;
+  color: white;
+}
+.inputContactame {
+  border-radius: 0.5vw;
+  box-sizing: border-box;
+  border-bottom: 3px solid blue;
+  background-color: rgb(210, 210, 235);
+  padding: 1.375rem 0.5rem 0.5rem;
+  height: 3.25rem;
+  width: 100%;
+  font-size: 1.2vw;
+}
+/* .inputContactame::placeholder {
+  visibility: hidden;
+  color: #00000000;
+} */
+.inputContactame:focus {
+  outline: black;
+}
+
+/* .input:not(:placeholder-shown) + .input-label,
+.input:focus + .input-label {
+  font-size: 0.875rem;
+  top: 0.25rem;
+  transition: all 0.25s;
+} */
+
+.inputMensaje {
+  font-size: 1.2vw;
+  box-sizing: border-box;
+  border: 2px solid blue;
+  padding: 0.5rem;
+  border-radius: 7px;
+  width: 100%;
+  min-height: 3rem;
+  background: rgb(210, 210, 235);
+}
+.inputMensaje:focus {
+  outline: none;
+}
+/* .inputMensaje::placeholder {
+  visibility: hidden;
+} */
+
+.imagenContactame {
+  width: 25vw;
+  height: 30vw;
+  margin-right: 5vw;
+}
+.enviarFormulario {
+  width: 15vw;
+  height: 4vw;
+  font-size: 1.5vw;
+  background: #0454a9;
+  color: white;
+  border-radius: 1rem;
+  border: none;
+  font-family: "Inconsolata", monospace;
+}
+
+.enviarFormulario:hover {
+  background: blue;
+}

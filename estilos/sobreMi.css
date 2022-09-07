@@ -1,0 +1,141 @@
+body {
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+.tituloNav {
+  margin-top: 1.7rem;
+  margin-left: 3rem;
+  font-size: 2vw;
+  color: rgb(73, 69, 69);
+  font-family: "Inconsolata", monospace;
+}
+.imgInicio {
+  width: 3.5vw;
+}
+.navegacion {
+  background-color: black;
+  display: flex;
+  /* justify-content: space-around; */
+  padding-bottom: 1.5rem;
+}
+.navegacion a {
+  margin-left: 3vw;
+  padding-top: 1.2rem;
+}
+.listaNav {
+  display: flex;
+  margin-left: 10rem;
+  font-size: 1.8vw;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.listaNav li a {
+  font-size: 1.7vw;
+  text-decoration: none;
+  color: rgb(197, 186, 186);
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+.listaNav li a:hover {
+  text-decoration: underline;
+  color: #0454a9;
+}
+
+.sobreMi {
+  background: url("/imagenes/fondoPrincipal.jpg") no-repeat center / cover;
+  justify-content: space-between;
+}
+.containerSobreMi {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10rem;
+  background: rgba(11, 11, 11, 0.65);
+  /* box-shadow: 0 8px 32px 0 black; */
+  backdrop-filter: blur(0px);
+}
+.infoSobreMi {
+  opacity: 0.8;
+  width: 55rem;
+  padding: 7rem 2rem 5rem;
+  margin-left: 2rem;
+  margin-top: 5rem;
+  border-radius: 1rem;
+}
+.hola {
+  font-size: 5rem;
+  color: white;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+.tituloSobreMi {
+  color: white;
+  font-size: 2.5vw;
+  margin-top: 3rem;
+  justify-content: space-around;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+.divisor {
+  background: white;
+  width: 15rem;
+  margin-left: 0rem;
+}
+.parrafoSobreMi {
+  color: white;
+  font-size: 2vw;
+  margin-top: 3rem;
+  /* font-family: "Inconsolata", monospace; */
+  margin-right: 1rem;
+}
+
+.imgSobremi {
+  border-radius: 100%;
+  width: 18rem;
+  height: 18rem;
+  margin-right: 2rem;
+  margin-top: 4rem;
+}
+.contactos {
+  background-color: rgb(67, 64, 64);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tituloFooter {
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  padding-top: 3rem;
+  font-size: 2vw;
+  margin-bottom: 2.3rem;
+  margin-left: 1.5rem;
+}
+.listaContactos {
+  margin-left: 1.5rem;
+  padding-bottom: 3rem;
+}
+.listaContactos li {
+  margin-right: 5rem;
+  margin-bottom: 2rem;
+  display: flex;
+}
+.imagenContacto {
+  width: 1rem;
+  margin-right: 0.5rem;
+}
+.parrafoContacto {
+  font-size: 1.5vw;
+  /* font-family: "Inconsolata", monospace; */
+}
+.listaRedes {
+  display: flex;
+  padding: 4rem 2rem 3rem;
+}
+
+.imgGithub {
+  width: 4rem;
+  height: 4rem;
+  /* margin-left: 2rem; */
+}
+.imgLinkedin {
+  width: 11rem;
+  height: 4rem;
+  margin-left: 4rem;
+}

@@ -1,0 +1,50 @@
+.formacion {
+  background: url("/imagenes/formacion.jpg") no-repeat center / cover;
+  /* padding: 3rem 2rem 3rem 2rem; */
+}
+
+.sectionFormacion {
+  padding: 5rem 3rem 10rem;
+  background: rgba(11, 11, 11, 0.75);
+  /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+  backdrop-filter: blur(0px);
+}
+.listaFormacion {
+  display: flex;
+  flex-wrap: wrap;
+}
+.listaFormacion li {
+  margin: 3rem;
+}
+.listaFormacion li h4 {
+  color: white;
+  font-size: 2rem;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+.listaFormacion li p {
+  font-family: "Inconsolata", monospace;
+  color: white;
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+.imgSena {
+  width: 12rem;
+  height: 12rem;
+  margin-left: 7vw;
+}
+.imgAlura {
+  width: 12rem;
+  height: 12rem;
+  margin-left: 6vw;
+}
+.imgRemington {
+  width: 12rem;
+  height: 12rem;
+  margin-left: 4vw;
+}
+.imgHenry {
+  width: 12rem;
+  height: 12rem;
+  margin-left: 3vw;
+}

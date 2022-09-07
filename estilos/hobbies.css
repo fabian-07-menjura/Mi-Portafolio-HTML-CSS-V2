@@ -1,0 +1,24 @@
+.hobbies {
+  background: url("/imagenes/hobbies.jpg") no-repeat center / cover;
+}
+.ContenedorHobbies {
+  padding: 5rem 3rem 10rem;
+  background: rgba(11, 11, 11, 0.75);
+  /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+  backdrop-filter: blur(0px);
+}
+.listaHobbies li {
+  display: flex;
+  margin: 3rem;
+}
+.listaHobbies li img {
+  width: 16rem;
+  height: 12rem;
+}
+.listaHobbies li p {
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 1.5vw;
+  text-align: center;
+  margin: 3rem;
+}

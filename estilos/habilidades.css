@@ -1,0 +1,72 @@
+.habilidades {
+  background: url("/imagenes/habilidades.jpg") no-repeat center / cover;
+}
+
+.contenedorHabilidades {
+  padding: 5rem 3rem 10rem;
+  background: rgba(11, 11, 11, 0.75);
+  /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+  backdrop-filter: blur(0px);
+}
+.tituloHabilidades {
+  font-size: 3vw;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-weight: bold;
+  color: rgb(218, 211, 211);
+  border: 2rem;
+  padding-top: 2rem;
+}
+.listaHabilidades {
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  margin-left: 14rem;
+}
+
+.listaHabilidades li {
+  margin-right: 6rem;
+  margin-bottom: 3rem;
+}
+/* .listaHabilidades li img {
+  width: 12rem;
+  height: 10rem;
+
+ 
+} */
+.htmlHabilidades {
+  width: 12rem;
+  height: 12rem;
+}
+.cssHabilidades {
+  width: 11rem;
+  height: 11rem;
+}
+.jsHabilidades {
+  width: 10rem;
+  height: 10rem;
+}
+.nodeHabilidades {
+  width: 10rem;
+  height: 10rem;
+}
+.reactHabilidades {
+  width: 17rem;
+  height: 10rem;
+}
+.reduxHabilidades {
+  width: 12rem;
+  height: 12rem;
+}
+.expressHabilidades {
+  width: 20rem;
+  height: 10rem;
+}
+.gitHabilidades {
+  width: 10rem;
+  height: 10rem;
+}
+.gitHubImagen {
+  width: 10rem;
+  height: 10rem;
+}
